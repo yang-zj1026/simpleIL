@@ -1,6 +1,5 @@
-import torch
-import numpy as np
 import torch.nn as nn
+from utils import available_actions
 
 
 class Flatten(nn.Module):
